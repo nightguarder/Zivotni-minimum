@@ -3,7 +3,7 @@ Vypocet zivotniho minima
 
 Very easy calculation of zivotni minimum. 
 
-Download the latest version now! -->Calculation1_1.zip! 
+Download the latest version now! -->Zkouska(1.1).zip! 
 
 If u want to download and view it on PC --> download the .zip file
 
