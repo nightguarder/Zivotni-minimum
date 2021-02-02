@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="row">
+        <div class="column left">
+            <ul class="list">
+                <h2 class="selection"><u>Menu</u></h2>
+                <br>
+            <li><a href="main.html" >Hlavní stránka</a></li>
+            <li><a href="povidani.html" >Povídání</a></li>
+            <li><a href="vypocet.html" >Výpočet</a></li>
+        </ul>
+        </div>
+    </div>
+    <div class="column right"> 
+        <h2>Vypočetní stránka</h2>
+        <br>
+        <p>Výpočet životního minima:</p>
+        <br>
+        <form action="vypocet.html" method="get" id="form1">
+            <div class="obsah">
+                Dospělí:<input type="text" placeholder="Počet osob" id="dospeli"><br>
+                Dítě<input type="text" placeholder="Dítě 0-6let" id="dite6" value="0"><br>
+                Dítě<input type="text" placeholder="Dítě 6-15let" id="dite15" value="0"><br>
+                Dítě<input type="text" placeholder="Dítě 15-26let" id="dite26" value="0"><br>
+            
+            </div>
+            <br>
+            <button type="button" onclick="Pocitej()" >Výpočet</button>
+        </form>
+        <br>
+        Výsledek=<input type="text" id="vysledek" value="" >
+    </div>
+</body>
+</html>

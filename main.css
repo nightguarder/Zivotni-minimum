@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+.column{
+    float: left;
+    padding: 10px;
+    height: fit-content;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 5px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  .right{
+    width: 85%;
+    float: right;
+    height: fit-content;
+}
